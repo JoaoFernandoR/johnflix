@@ -1,0 +1,21 @@
+#menu {
+    background-color: var(--black);
+    height: 94px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media(max-width: 800px) {
+        justify-content: center;
+    }
+
+    img {
+        max-width: 128px;
+
+        @media(max-width: 800px) {
+            max-width: 108px;
+        }
+    }
+
+}
