@@ -1,4 +1,4 @@
-### A Netflix style aplication where you can organize and upload your videos
+### A Netflix style aplication developed with React and Typescript where you can organize and upload your videos
 ---
 ## 🚀 Technologies
 
