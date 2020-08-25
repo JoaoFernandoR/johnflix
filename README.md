@@ -3,6 +3,7 @@
 ## 🚀 Technologies
 
 * [node-sass](https://www.npmjs.com/package/node-sass "node-sass")
+* [react-router-dom](https://reactrouter.com/web/guides/quick-start "react-router-dom")
 
 ---
 ## 👍 A Thanks to:
@@ -12,4 +13,6 @@
 ---
 ## ✔️ To do 
 - [ ] Finish the course
+- [ ] Take off styled components
+- [ ] Change everything to Typescript
 

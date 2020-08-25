@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/images/logo2.png'
+import { Link } from 'react-router-dom'
 // Components
 import ButtonLink from '../../shared/ButtonLink'
 // CSS
@@ -11,9 +12,11 @@ const Menu:React.FC = () => {
             <a href="/">
                 <img src={Logo} alt="JohnFlix Logo"/>
             </a>
-            <ButtonLink href="/" className="ButtonLink">
-                Novo Vídeo
-            </ButtonLink>
+            <Link to="/newvideo">
+                <ButtonLink href="/" className="ButtonLink">
+                    Novo Vídeo
+                </ButtonLink>
+            </Link>
         </section>
     )
 }
