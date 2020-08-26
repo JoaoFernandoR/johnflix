@@ -15,6 +15,7 @@
         width: 100vw;
         background-color: var(--primary);
         text-align: center;
+        z-index: 1;
 
         &:hover {
             background-color: var(--frontEnd);

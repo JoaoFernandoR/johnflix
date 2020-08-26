@@ -8,35 +8,35 @@ import './Home.scss'
 
 const Home = () => {
     return (
-        <section id="App" style={{ 'background' : "#141414"}}>
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="O que"
-      />
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[1]}
-      />
-      <Carousel
-        ignoreFirstVideo
+      <section id="home">
+        <BannerMain
+          videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
+          url={dadosIniciais.categorias[0].videos[0].url}
+          videoDescription="O que"
+        />
+        <Carousel
+          ignoreFirstVideo
+          category={dadosIniciais.categorias[0]}
+        />
+        <Carousel
+          ignoreFirstVideo
+          category={dadosIniciais.categorias[1]}
+        />
+        <Carousel
+          ignoreFirstVideo
 
-        category={dadosIniciais.categorias[2]}
-      />
-      <Carousel
-        ignoreFirstVideo
+          category={dadosIniciais.categorias[2]}
+        />
+        <Carousel
+          ignoreFirstVideo
 
-        category={dadosIniciais.categorias[3]}
-      />
-      <Carousel
-        ignoreFirstVideo
+          category={dadosIniciais.categorias[3]}
+        />
+        <Carousel
+          ignoreFirstVideo
 
-        category={dadosIniciais.categorias[4]}
-      />
+          category={dadosIniciais.categorias[4]}
+        />
     </section>
     )
 }

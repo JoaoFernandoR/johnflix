@@ -1,7 +1,8 @@
 import React from 'react';
-import { VideoCardContainer } from './styles';
+// CSS
+import {VideoCardContainer} from './styles.js'
 
-function getYouTubeId(youtubeURL) {
+const getYouTubeId = (youtubeURL) => {
   return youtubeURL
     .replace(
       /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
@@ -10,17 +11,21 @@ function getYouTubeId(youtubeURL) {
 }
 
 
-function VideoCard({ videoTitle, videoURL, categoryColor }) {
+const VideoCard = ({ videoTitle, videoURL, categoryColor, children }) => {
+
   const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
+  
   return (
     <VideoCardContainer
-      url={image}
       href={videoURL}
       target="_blank"
       style={{ borderColor: categoryColor || 'red' }}
       title={videoTitle}
+      url={image}
     />
   );
 }
 
 export default VideoCard;
+
+// background-image: ${({ url }) => `url(${url})`};

@@ -9,9 +9,9 @@ import './Menu.scss'
 const Menu:React.FC = () => {
     return (
         <section id="menu">
-            <a href="/">
+            <Link to="/">
                 <img src={Logo} alt="JohnFlix Logo"/>
-            </a>
+            </Link>
             <Link to="/newvideo">
                 <ButtonLink href="/" className="ButtonLink">
                     Novo Vídeo

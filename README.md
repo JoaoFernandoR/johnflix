@@ -4,6 +4,7 @@
 
 * [node-sass](https://www.npmjs.com/package/node-sass "node-sass")
 * [react-router-dom](https://reactrouter.com/web/guides/quick-start "react-router-dom")
+* [react-slick](https://react-slick.neostack.com/ "react-slick")
 
 ---
 ## 👍 A Thanks to:
